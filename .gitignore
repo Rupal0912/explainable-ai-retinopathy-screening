@@ -22,3 +22,5 @@ project_snapshot.txt
 AUDIT.md
 MONGODB_NOTES.md
 
+# Exclude medical reference PDFs
+explanable-ai-retinopathy-guidance-docs/explanable-ai-retinopathy-guidance/rag_corpus/*.pdf
