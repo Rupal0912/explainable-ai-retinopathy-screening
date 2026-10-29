@@ -1,0 +1,16 @@
+numpy==2.4.6
+pandas==3.1.0
+Pillow==13.0.0
+opencv-python-headless==5.0.0.93
+scikit-learn==1.9.1
+torch==2.14.1
+torchvision==0.29.1
+grad-cam==1.5.7
+sentence-transformers==6.2.0
+faiss-cpu==1.15.1
+pypdf==6.21.2
+groq==1.7.0
+pymongo==4.19.0
+python-dotenv==1.2.4
+streamlit==1.66.1
+pytest==9.1.1

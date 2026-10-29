@@ -1,0 +1,44 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+kaggle.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Dataset and generated data
+data/
+*.csv
+*.parquet
+*.db
+
+# Model checkpoints and generated indexes
+models/*.pt
+models/*.pth
+models/*.onnx
+index/
+*.faiss
+
+# Logs, local outputs, and editor files
+*.log
+.streamlit/secrets.toml
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep raw images and screening records out of version control
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.webp
